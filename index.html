@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon-16x16.png" type="image/x-icon">
+    <title>Intuit Accounts-Sign Up: RafaelCruz</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul class="pass">
+                <li><button type="submit"><img src="images/lockedPadlock.png" alt="lock"> Sign In</button></li>
+                <li><p>Already have an Intuit account?</p><a class="pass" href="#">I forgot my User ID or Password</a></li>
+            </ul>
+        </nav>
+        <section>
+            <div class="logo1">
+                <img src="images/logo.png" alt="logo">
+            </div>
+            <div class="logo">
+                <a href="#"><img src="images/mint1.svg" alt="mint1">mint</a>
+                <a href="#"><img src="images/quickbooks1.svg" alt="quickbooks">quickbooks</a>
+                <a href="#"><img src="images/turbotax1.svg" alt="turbotax">turbotax</a>
+            </div>
+        </section>
+    </header>
+
+    <main class="border">
+        <h1>Create an Intuit account</h1>
+        <p>One account for everything Intuit, including Mint.</p>
+        <p><a href="#">Learn more</a></p>
+
+        <form id="account-form">
+            <div class="form-control">
+                <label for="email" id="email-label">Email address</label>
+                <input type="email" id="email" required> 
+            </div>
+
+            <div class="form-control">
+                <label for="phone" id="phone-label">Phone (recommended)</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+                <p class="small">Standard call, messaging or data rates may apply.</p>
+            </div>
+
+            <div class="form-control">
+                <label for="pwd" id="password-label">Password</label>
+                <input type="password" id="pwd" name="pwd">
+            </div>
+
+            <div class="form-control">
+                <button type="submit"><img src="images/lockedPadlock.png" alt="lock">Create Account</button>
+                <div>
+                <p class="it">By clicking Create Account, you agree to our</p>
+                <p class="it"><a class="it" href="#">Terms</a> and have read and acknowledge our <a class="it" href="#">Global Privacy Statement.</a></p>
+            </div>
+            </div>
+            
+            <div class="form-footer">
+                <p>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a></p>
+            </div>
+
+        </form>
+    </main>
+
+    <footer>
+        <div class="link">
+            <ul>
+                <li><a href="#">Legal</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Security</a></li>
+            </ul>
+        </div>
+        <p>© 2021 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</p>
+        <p>Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+    </footer>
+</body>
+</html>
